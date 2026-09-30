@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Informativa privacy dell'app Keyb(ED)It.">
+  <title>Keyb(ED)It - Informativa privacy</title>
+  <style>
+    :root { color-scheme: light; --ink: #172b36; --muted: #526773; --line: #d7e1e5; --paper: #fff; --ground: #f2f6f7; --accent: #087e8b; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--ground); color: var(--ink); font: 16px/1.65 "Segoe UI", Arial, sans-serif; }
+    main { width: min(900px, calc(100% - 32px)); margin: 32px auto; padding: clamp(22px, 5vw, 48px); background: var(--paper); border: 1px solid var(--line); border-radius: 8px; }
+    h1 { margin: 0 0 4px; font-size: clamp(28px, 5vw, 38px); line-height: 1.15; }
+    h2 { margin: 30px 0 8px; font-size: 21px; line-height: 1.3; }
+    p, ul { margin: 10px 0; }
+    li + li { margin-top: 6px; }
+    .muted { color: var(--muted); }
+    .language { display: flex; gap: 8px; margin: 22px 0 26px; }
+    button { min-height: 40px; padding: 8px 15px; border: 1px solid var(--line); border-radius: 5px; background: white; color: var(--ink); font: inherit; cursor: pointer; }
+    button[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); font-weight: 700; }
+    a { color: #056b78; text-underline-offset: 3px; }
+    footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+    [hidden] { display: none !important; }
+    @media (max-width: 560px) { main { width: 100%; margin: 0; border-radius: 0; border-inline: 0; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Keyb(ED)It</h1>
+    <p><strong>Informativa privacy</strong><br><span class="muted">Ultimo aggiornamento: 30 settembre 2026</span></p>
+  </header>
+  <nav class="language" aria-label="Lingua">
+    <button id="it-button" type="button" aria-pressed="true">Italiano</button>
+    <button id="en-button" type="button" aria-pressed="false">English</button>
+  </nav>
+
+  <article id="italian">
+    <p>Questa informativa descrive il trattamento dei dati personali connesso all'uso di <strong>Keyb(ED)It</strong>, applicazione per tablet che consente di controllare registratori telematici EDIt tramite Wi-Fi, Bluetooth o collegamento seriale USB.</p>
+
+    <h2>1. Titolare e contatti</h2>
+    <p>Il titolare del trattamento indicato per l'app è <strong>rdbecrsolutions</strong>. Per domande o richieste relative alla privacy: <a href="mailto:rdbecrsolutions@gmail.com">rdbecrsolutions@gmail.com</a>.</p>
+
+    <h2>2. Dati trattati e funzionamento</h2>
+    <ul>
+      <li><strong>Fotocamera e barcode.</strong> Quando avvii lo scanner e concedi il permesso, i fotogrammi sono elaborati sul tablet per individuare un codice a barre. L'app non invia al titolare immagini o video della fotocamera. Il valore letto viene mostrato nel registro attività a schermo e inviato al registratore selezionato tramite la connessione scelta.</li>
+      <li><strong>Comandi e dati del registratore.</strong> Tastiera virtuale, barcode, stato e dati richiesti al registratore (per esempio reparti, aliquote, articoli o clienti, se supportati) sono scambiati direttamente tra tablet e dispositivo collegato. L'app non instrada questi contenuti attraverso server del titolare.</li>
+      <li><strong>Connessioni e dispositivi.</strong> Per Wi-Fi, Bluetooth e USB l'app tratta le informazioni tecniche necessarie a individuare o collegare il registratore, come indirizzo di rete o identificativi Bluetooth. L'app non usa la posizione per tracciarti; alcune versioni Android possono richiedere il permesso di posizione per la scansione Bluetooth secondo le regole del sistema.</li>
+      <li><strong>Log diagnostici.</strong> L'app può creare log tecnici locali per individuare errori e migliorare l'affidabilità. I file restano nell'area dell'app sul dispositivo e sono eliminati secondo una retention automatica massima di 7 giorni e 10 MB complessivi. Il registro attività visibile nell'interfaccia è distinto dai file diagnostici.</li>
+      <li><strong>Impostazioni e abbonamenti.</strong> Preferenze dell'app e stato/data dell'abbonamento possono essere memorizzati localmente. Gli acquisti in-app sono gestiti tramite Google Play Billing: Google tratta i dati necessari al pagamento secondo la propria informativa; Keyb(ED)It non riceve i dati della carta.</li>
+    </ul>
+
+    <h2>3. Permessi</h2>
+    <p>La fotocamera è richiesta solo per la scansione avviata dall'utente. I permessi Bluetooth/dispositivi nelle vicinanze servono a cercare e collegare il registratore; sulle versioni Android meno recenti può essere necessario il permesso di posizione per la scansione Bluetooth, senza che l'app raccolga la posizione a fini di tracciamento. La rete è usata per la comunicazione Wi-Fi con il registratore e per i servizi Google Play. Puoi negare o revocare i permessi, ma la funzione corrispondente potrebbe non essere disponibile.</p>
+
+    <h2>4. Servizi di terze parti e comunicazioni</h2>
+    <p>Google Play Billing gestisce gli acquisti e il ripristino degli abbonamenti. La scansione usa la libreria Google ML Kit sul dispositivo. Questi fornitori possono trattare dati tecnici secondo le proprie informative: <a href="https://policies.google.com/privacy">Privacy Google</a> e <a href="https://policies.google.com/terms">Termini Google</a>.</p>
+    <p>Il titolare non riceve automaticamente i barcode, i comandi o i dati scambiati con il registratore. Se ci contatti via email, useremo i dati inclusi nel messaggio per rispondere e gestire la richiesta.</p>
+
+    <h2>5. Conservazione e cancellazione</h2>
+    <p>I dati scambiati con la cassa sono gestiti per fornire le funzioni richieste e possono restare nel registratore secondo le impostazioni di quest'ultimo. Le preferenze e lo stato locale dell'abbonamento restano nell'area dell'app finché non vengono cancellati i dati dell'app o disinstallata l'applicazione. La disinstallazione non annulla un abbonamento: per gestirlo usa Google Play.</p>
+
+    <h2>6. Base giuridica e diritti</h2>
+    <p>I dati sono trattati nella misura necessaria a fornire le funzioni richieste, gestire gli acquisti e mantenere sicurezza e affidabilità. Per i permessi facoltativi la scelta è dell'utente. Se si applica il GDPR, puoi esercitare i diritti di accesso, rettifica, cancellazione, limitazione, opposizione e portabilità scrivendo al contatto privacy sopra indicato. Puoi inoltre proporre reclamo all'autorità di controllo competente.</p>
+
+    <h2>7. Minori e aggiornamenti</h2>
+    <p>Keyb(ED)It è uno strumento professionale per l'uso con registratori telematici e non è progettata per minori. Questa informativa può essere aggiornata; la data in alto indica la versione più recente.</p>
+  </article>
+
+  <article id="english" lang="en" hidden>
+    <p>This notice explains how personal data are processed when using <strong>Keyb(ED)It</strong>, a tablet app for controlling EDIt electronic cash registers over Wi-Fi, Bluetooth, or USB serial connection.</p>
+
+    <h2>1. Data controller and contact</h2>
+    <p>The controller identified for the app is <strong>rdbecrsolutions</strong>. For privacy questions or requests, contact <a href="mailto:rdbecrsolutions@gmail.com">rdbecrsolutions@gmail.com</a>.</p>
+
+    <h2>2. Data processed and app operation</h2>
+    <ul>
+      <li><strong>Camera and barcodes.</strong> When you start the scanner and grant permission, camera frames are processed on the tablet to detect a barcode. The app does not send camera images or video to the controller. The detected value is shown in the on-screen activity log and sent to the selected cash register through your chosen connection.</li>
+      <li><strong>Commands and register data.</strong> Virtual-keyboard commands, barcodes, status, and data requested from the register (such as departments, tax rates, products, or customers, where supported) are exchanged directly between the tablet and the connected device. The app does not route this content through the controller's servers.</li>
+      <li><strong>Connections and devices.</strong> Wi-Fi, Bluetooth, and USB features process technical information needed to find or connect to the register, such as a network address or Bluetooth identifiers. The app does not use location for tracking. Some Android versions may require location permission for Bluetooth scanning under the operating system's rules.</li>
+      <li><strong>Diagnostic logs.</strong> The app may create local technical logs to investigate errors and improve reliability. Files stay in the app's device storage and are subject to automatic retention of up to 7 days and 10 MB total. The activity log shown in the interface is separate from diagnostic files.</li>
+      <li><strong>Settings and subscriptions.</strong> App preferences and subscription status/date may be stored locally. In-app purchases are handled through Google Play Billing. Google processes payment information under its own privacy notice; Keyb(ED)It does not receive payment-card details.</li>
+    </ul>
+
+    <h2>3. Permissions</h2>
+    <p>Camera access is requested only for a scan you start. Bluetooth/nearby-device permissions are used to discover and connect to the register; older Android versions may require location permission for Bluetooth scanning, but the app does not collect location for tracking. Network access is used for Wi-Fi communication with the register and Google Play services. You can deny or revoke permissions, but the related feature may not work.</p>
+
+    <h2>4. Third-party services and communications</h2>
+    <p>Google Play Billing handles purchases and subscription restoration. Barcode scanning uses the on-device Google ML Kit library. These providers may process technical data under their own notices: <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://policies.google.com/terms">Google Terms</a>.</p>
+    <p>The controller does not automatically receive barcodes, commands, or data exchanged with the register. If you contact us by email, we use the information in your message to respond and handle your request.</p>
+
+    <h2>5. Retention and deletion</h2>
+    <p>Data exchanged with the register are handled to provide requested features and may remain on the register according to its settings. Preferences and local subscription status remain in the app's storage until app data are cleared or the app is uninstalled. Uninstalling the app does not cancel a subscription; manage it through Google Play.</p>
+
+    <h2>6. Legal basis and your rights</h2>
+    <p>Data are processed as necessary to provide requested features, handle purchases, and maintain security and reliability. Optional permissions are under your control. Where the GDPR applies, you may request access, rectification, erasure, restriction, objection, or portability by contacting the privacy address above. You may also lodge a complaint with your competent supervisory authority.</p>
+
+    <h2>7. Children and updates</h2>
+    <p>Keyb(ED)It is a professional tool for use with electronic cash registers and is not designed for children. This notice may be updated; the date above identifies its latest version.</p>
+  </article>
+
+  <footer>Informativa privacy ufficiale di Keyb(ED)It / Official privacy notice for Keyb(ED)It.</footer>
+</main>
+<script>
+  const itButton = document.getElementById('it-button');
+  const enButton = document.getElementById('en-button');
+  const italian = document.getElementById('italian');
+  const english = document.getElementById('english');
+  itButton.addEventListener('click', () => {
+    italian.hidden = false;
+    english.hidden = true;
+    itButton.setAttribute('aria-pressed', 'true');
+    enButton.setAttribute('aria-pressed', 'false');
+    document.documentElement.lang = 'it';
+  });
+  enButton.addEventListener('click', () => {
+    italian.hidden = true;
+    english.hidden = false;
+    itButton.setAttribute('aria-pressed', 'false');
+    enButton.setAttribute('aria-pressed', 'true');
+    document.documentElement.lang = 'en';
+  });
+</script>
+</body>
+</html>
